@@ -1,0 +1,26 @@
+{
+  "name": "finance-tracker-backend",
+  "version": "1.0.0",
+  "description": "backend for finance tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PaulChinta7/FinanceTracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulChinta7/FinanceTracker/issues"
+  },
+  "homepage": "https://github.com/PaulChinta7/FinanceTracker#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0",
+    "nodemon": "^3.1.9"
+  }
+}
